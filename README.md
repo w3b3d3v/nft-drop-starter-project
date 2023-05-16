@@ -5,7 +5,7 @@ Para iniciar esse bu8ld, clone esse repo e execute esses comandos:
 
 1. entra na pasta `app`
 2. Rode `npm install` no diretório raiz
-3. Rode `npm run start`  para iniciar o projeto
+3. Rode `npm run dev`  para iniciar o projeto
 4. Bora codar!
 
 ### O que é essa pasta .vscode?
