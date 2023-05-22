@@ -1,5 +1,6 @@
 import React from "react"
 import dynamic from "next/dynamic"
+import { useWallet } from "@solana/wallet-adapter-react";
 
 // Constants
 const TWITTER_HANDLE = "web3dev_"
@@ -11,12 +12,26 @@ const Home = () => {
     { ssr: false }
   )
 
+  const wallet = useWallet()
+
+  const renderNotConnectedContainer = () => (
+    <div>
+      <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
+
+      <div className="button-container">
+        <WalletMultiButtonDynamic className="cta-button connect-wallet-button" />
+      </div>
+    </div>
+  )
+
+
   return (
     <div className="App">
       <div className="container">
         <div className="header-container">
           <p className="header">🍭 Máquina de Doces</p>
           <p className="sub-text">Máquina de doces para mintar NFTs</p>
+          {wallet.publicKey ? "Olá Mundo" : renderNotConnectedContainer()}
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />
@@ -25,7 +40,7 @@ const Home = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`construído pela @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
