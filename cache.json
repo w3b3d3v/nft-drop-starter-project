@@ -1,0 +1,33 @@
+{
+  "program": {
+    "candyMachine": "6H1BEjM1B9jHEmhcX6ThH6smiZhYZPwWuNbt26hLh9J9",
+    "candyMachineCreator": "4CFrLTXQXVsWjqXhK4ZWVHsq2KoazwLiyr8Bn4wAZqw2",
+    "collectionMint": ""
+  },
+  "items": {
+    "0": {
+      "name": "Trindade",
+      "image_hash": "3d188b7df33fb5971e4c2c926af5ea6e6ad8e04c593bca7875c99130f7b4c51a",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifaluahzlnst42vgfb7zizevayek22ym2ykshjkgxy57ynaervkfy/0.png",
+      "metadata_hash": "d5c2ab8818a75210fdfc679d297a36c75ce4c28ded77cbebd05546a0d7115b9d",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeig6kbljpmubtuaj7a4rwrucf53g23qzwxmhqci2rebyxoo3374iy4/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "Bird",
+      "image_hash": "8e6634c0e1bce168ac30c414a0e66edb6ae40e2d62f67229eff7a9c47af914f2",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifaluahzlnst42vgfb7zizevayek22ym2ykshjkgxy57ynaervkfy/1.png",
+      "metadata_hash": "37f6b1fee19ed408ac104639d5d813330e62212156d9bf43c2edf86e9cebb33e",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeig6kbljpmubtuaj7a4rwrucf53g23qzwxmhqci2rebyxoo3374iy4/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "Cave",
+      "image_hash": "5a08e651a0784651fd8966ef4de4c19c6107181330d822ff8f7ebfae00dfd723",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifaluahzlnst42vgfb7zizevayek22ym2ykshjkgxy57ynaervkfy/2.png",
+      "metadata_hash": "cfcc25759ff5aec34bdfba28af830776e4cb931787c38420fac6fba7a8670063",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeig6kbljpmubtuaj7a4rwrucf53g23qzwxmhqci2rebyxoo3374iy4/2.json",
+      "onChain": true
+    }
+  }
+}

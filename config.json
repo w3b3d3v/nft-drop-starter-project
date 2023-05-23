@@ -1,0 +1,27 @@
+{
+  "price": 0.01,
+  "number": 3,
+  "gatekeeper": null,
+  "creators": [
+    {
+      "address": "HRXwMkvC6FyfYJhYemgqK7wD4GUbYzRkKjxNtmazbHFB",
+      "share": 100
+    }
+  ],
+  "solTreasuryAccount": "HRXwMkvC6FyfYJhYemgqK7wD4GUbYzRkKjxNtmazbHFB",
+  "splTokenAccount": null,
+  "splToken": null,
+  "goLiveDate": "2022-05-02T18:00:00+00:00",
+  "endSettings": null,
+  "whitelistMintSettings": null,
+  "hiddenSettings": null,
+  "freezeTime": null,
+  "uploadMethod": "nft_storage",
+  "retainAuthority": true,
+  "isMutable": true,
+  "symbol": "DAN",
+  "sellerFeeBasisPoints": 1,
+  "awsConfig": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEJmOUY3M0FDMTBDNjhmODg4RjgwOTM1ZTNDZjJGZDljYkZmNWUxYkQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4NDYwMDQ0MTEzMCwibmFtZSI6Im1ldGFwbGV4In0.uenug6Nbe-BqUIenHApasZhpu3pPlp_aHq40EBrpGzc",
+  "shdwStorageAccount": null
+}

@@ -1,6 +1,7 @@
 import React from "react"
 import dynamic from "next/dynamic"
 import { useWallet } from "@solana/wallet-adapter-react";
+import CandyMachine from "../components/CandyMachine";
 
 // Constants
 const TWITTER_HANDLE = "web3dev_"
@@ -31,7 +32,7 @@ const Home = () => {
         <div className="header-container">
           <p className="header">🍭 Máquina de Doces</p>
           <p className="sub-text">Máquina de doces para mintar NFTs</p>
-          {wallet.publicKey ? "Olá Mundo" : renderNotConnectedContainer()}
+          {wallet.publicKey ? <CandyMachine walletAddress={wallet} /> : renderNotConnectedContainer()}
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />

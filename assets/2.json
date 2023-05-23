@@ -1,0 +1,21 @@
+{
+  "name": "Cave",
+  "symbol": "DAN",
+  "description": "Foto de Cave",
+  "image": "2.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "2"
+    }
+  ],
+
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
